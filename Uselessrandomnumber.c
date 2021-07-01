@@ -1,3 +1,7 @@
+//the program generate random number
+//if you input number , (number == randomnumber) you correct
+//if input < randnumber output = "Your value is smaller"
+//if input > randnumber output = "Your value is bigger"
 #include <stdio.h>
 #include <time.h>
 
@@ -10,7 +14,7 @@ int main()
 	{
 		int randnum = srand()%100;
 		printf("[%d] Enter Value 0-99: ",count);
-		scanf("%d",&inp);
+		scanf("%d",&inp); //Get number from user
 		if (inp > randnum)
 		
 		{
